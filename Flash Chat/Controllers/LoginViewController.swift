@@ -20,7 +20,8 @@ class LoginViewController: UIViewController {
                 if let e = error {
                     print(e.localizedDescription)
                 } else {
-                    self.performSegue(withIdentifier: "LoginToChat", sender: self)
+                    //Navigate to the ChatViewController
+                    self.performSegue(withIdentifier: K.loginSegue, sender: self)
                 }
             }
         }
