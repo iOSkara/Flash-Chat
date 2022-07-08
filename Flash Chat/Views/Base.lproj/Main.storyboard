@@ -47,7 +47,7 @@
                                     <segue destination="HCJ-5t-Azk" kind="show" id="o3f-eL-Rgu"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⚡️FlashChat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Unw-6m-A5X" userLabel="Title Label" customClass="CLTypingLabel" customModule="CLTypingLabel">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⚡️FlashChat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="25" translatesAutoresizingMaskIntoConstraints="NO" id="Unw-6m-A5X" userLabel="Title Label" customClass="CLTypingLabel" customModule="CLTypingLabel">
                                 <rect key="frame" x="53" y="418" width="308" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="6f7-g4-ezG"/>
@@ -191,7 +191,7 @@
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="textfield" translatesAutoresizingMaskIntoConstraints="NO" id="QjY-l6-4iL">
                                         <rect key="frame" x="0.0" y="20" width="414" height="137"/>
                                     </imageView>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="rgamer402@gmail.com" placeholder="Email" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="f0x-CG-42a" userLabel="Email TextField">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="f0x-CG-42a" userLabel="Email TextField">
                                         <rect key="frame" x="48" y="50" width="318" height="45"/>
                                         <color key="textColor" name="BrandPurple"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
@@ -227,7 +227,7 @@
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="textfield" translatesAutoresizingMaskIntoConstraints="NO" id="fFE-wC-lFk">
                                         <rect key="frame" x="0.0" y="20" width="414" height="137"/>
                                     </imageView>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Oreshek1337" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TgA-Gk-wJd" userLabel="Password TextField">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TgA-Gk-wJd" userLabel="Password TextField">
                                         <rect key="frame" x="48" y="50" width="318" height="45"/>
                                         <color key="textColor" name="BrandPurple"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
@@ -381,9 +381,7 @@
         </scene>
     </scenes>
     <designables>
-        <designable name="Unw-6m-A5X">
-            <size key="intrinsicContentSize" width="307.5" height="60"/>
-        </designable>
+        <designable name="Unw-6m-A5X"/>
     </designables>
     <inferredMetricsTieBreakers>
         <segue reference="h0w-ZD-3Y9"/>
